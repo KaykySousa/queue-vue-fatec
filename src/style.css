@@ -1,0 +1,47 @@
+*,
+html,
+body,
+#app,
+button,
+input,
+textarea {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	background: none;
+	font-family: sans-serif;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+button,
+input {
+	padding: 0.75rem 1rem;
+	border: 1px solid #ababab;
+}
+
+h1 {
+	margin-bottom: 0.5rem;
+}
+
+button {
+	cursor: pointer;
+	margin-right: 0.5rem;
+}
+
+main {
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.queue-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
